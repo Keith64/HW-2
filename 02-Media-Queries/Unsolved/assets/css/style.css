@@ -54,11 +54,16 @@ body {
 /* TODO: Add media queries for the following screen sizes */
 
 /* Width at 1024px and below */
+@media screen and (max-width: 1024px) 
 
 /* Width at 768px and below */
+@media screen and (max-width: 768px)
 
 /* Width at 600px and below */
+@media screen and (max-width: 600px)
 
 /* Width at 480px and below */
+@media screen and (max-width: 480px)
 
 /* Width at 480px and below */
+@media screen and (max-width: 480px)
