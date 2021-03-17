@@ -5,7 +5,7 @@
 /* TODO: Extract colors to CSS Variables */
 
 body {
-  background-color: #f9eded;
+  background-color: var(--light);
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +22,7 @@ h6 {
 
 /* TODO: Replace the color hex codes with CSS variables */
 header {
-  background-color: #29364f;
+  background-color: var(--dark-blue);
 }
 
 .header-wrapper {
@@ -35,7 +35,7 @@ header {
 
 .header-wrapper h1 {
   margin: 0;
-  background-color: #1d6768;
+  background-color: var(--sapphire);
   padding: 20px 15px;
 }
 
@@ -56,7 +56,7 @@ header {
   padding: 0 15px;
   font-size: 20px;
   text-decoration: none;
-  border-right: 2px solid #337eaa;
+  border-right: 2px solid var(--light-blue);
 }
 
 .header-wrapper nav a:last-child {
@@ -81,6 +81,6 @@ header {
 
 #main-content {
   float: left;
-  color: #f9eded;
-  background: #181b26;
+  color: var(--light);
+  background: var(--dark);
 }
